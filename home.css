@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 15;
+}
+
+header {
+  background: #3b3ec4;
+  color: floralwhite;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #3b3ec4;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 20px;
+}
+
+.contact {
+  background: #1ae5c1;
+  padding: 20px;
+  margin-top: 60px;
+  border-top: 10px solid #ddd;
+}
+
+.contact h3 {
+  margin-top: 0;
+}

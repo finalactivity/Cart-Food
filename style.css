@@ -1,0 +1,98 @@
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .search-bar, .name-input {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto 15px auto;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+    }
+
+    .cart {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .checkout-btn {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        width: 100%;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #218838;
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 15px;
+        width: 180px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .product img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+    }
+
+    .product-name {
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+
+    .product-price {
+        margin-bottom: 10px;
+        color: #666;
+    }
+
+    .add-to-cart {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        font-size: 14px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    .add-to-cart:hover {
+        background-color: #0069d9;
+    }
+</style>
